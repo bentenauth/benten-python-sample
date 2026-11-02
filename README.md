@@ -7,7 +7,7 @@ A Python client and command-line sample for the [Benten](https://bententechnolog
 - IoT setting change;
 - generic notification.
 
-The user gets a notification in the free Benten App on their phone and taps **Allow** or **Deny**. Your code gets the answer back, or **TIMEOUT** after 60 seconds.
+The user gets a notification in the free Benten App on their phone and taps **Allow** or **Deny**. Your code gets the answer back, or **TimedOut** after 60 seconds.
 
 Benten has no language-specific parts: everything is HTTPS and WebSockets with JSON. `benten.py` is about 300 lines with one dependency, so you can copy it into your project, or use it as a guide for another language.
 
